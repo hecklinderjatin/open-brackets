@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box:
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(ROG-wallpaper-8-bit_3840x1080.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 90%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.wrapper .btn{
+    width: 50%;
+    height: 45px;
+    left: 0;
+    margin: 10px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    z-index: -1;
+    transition: 1s;
+}
+
+.wrapper .btn::before{
+    bottom: 0;
+    border-radius: 50px 50px 0 0;
+}
+
+.wrapper .btn:hover{
+    color: aqua;
+    background: #3c00ff;
+}
